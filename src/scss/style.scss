@@ -1,0 +1,77 @@
+$g:#91c84a;
+$dB:#1c1b34;
+$btn-border-radius:0;
+
+.padding{
+    padding-top: 200px;
+}
+.bg-green{
+    background-color: $g;
+}
+
+.text-green{
+    color:$g;
+}
+
+.text-darkBlue{
+    color:$dB;
+}
+
+.line-height-header{
+    line-height: 1px;
+}
+
+.line-height{
+    line-height: 30px;
+}
+
+.bg-darkBlue{
+    background-color: $dB;
+}
+
+.class-ul {
+  list-style: none;
+  padding: 0;
+.class-li {
+  padding-left: 1em;
+  text-indent: -1.7em;
+}
+.class-li::before {
+  content: "• ";
+  color: $g; 
+  font-size: 40px;
+}
+}//end of ul
+
+.text-full-size{
+    background-image: url('../../dist/imgs/SA-Canegrowers_g.png');
+    background-size: cover;
+}
+
+.header-full-size{
+    background-image: url('../../dist/imgs/SA-Canegrowers_K.png');
+    background-size: cover;
+    height:100vh;
+}
+
+.large-font{
+    font-size:60px;
+}
+
+.geoLocation {
+  overflow: hidden;
+  height: 500px;
+  width: 100%; }
+  .geoLocation .gmap_canvas {
+    background: none !important;
+    height: 500px;
+    width: 100%; 
+}
+
+.bg-footer{
+    background-image: url('../../dist/imgs/SA-Canegrowers_footer.png');
+    background-size: cover;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap.scss"
+    
